@@ -107,7 +107,6 @@ plt.show()
 prediction = model.predict(x)  #Modell sagt Wahrscheinlichkeit für Tumor
 pred_value = prediction[0][0]
 
-print("Hallo")
 
 # Ausgabe
 print(f"Wahrscheinlichkeit für Tumor: {pred_value:.2f}")

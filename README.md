@@ -1,7 +1,7 @@
 # brain-tumor-classification
 Deep-Learning-Modell zur Erkennung von Tumoren in Hirnscans mit Python, Keras und Grad-CAM.
 
-#📌 Overview
+📌 Overview
 
 Dieses Repository enthält ein Deep-Learning-Projekt zur Klassifikation von Gehirntumoren anhand von MRT-Bildern.
 

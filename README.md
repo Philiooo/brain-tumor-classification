@@ -1,9 +1,11 @@
 # brain-tumor-classification  
 Deep-Learning-Modell zur Erkennung von Tumoren in Hirnscans mit Python, Keras und Grad-CAM.  
 
-📌 Overview  
+# 📌 Overview  
 
 Dieses Repository enthält ein Deep-Learning-Projekt zur Klassifikation von Gehirntumoren anhand von MRT-Bildern.  
+
+<br>
 
 Es kombiniert:  
 1. Bildvorverarbeitung (Skalierung, Normalisierung)  
@@ -15,9 +17,10 @@ Es kombiniert:
 Das Ziel ist es, ein einfaches, verständliches und reproduzierbares Modell zu erstellen, das zeigt,  
 wie Deep Learning zur medizinischen Bildanalyse eingesetzt werden kann.  
 
+<br>
 
-🧼 Datasets & Preprocessing  
-🧩 1. Image Preprocessing  
+# 🧼 Datasets & Preprocessing  
+## 🧩 1. Image Preprocessing  
 
 Schritte:  
 - Laden und Skalieren der Bilder (150×150 px)  
@@ -25,14 +28,16 @@ Schritte:
 - Erstellen von NumPy-Arrays für Training/Test  
 - Train/Test-Split (80/20)  
 
+<br>
 
-⚠️ Datenhinweis  
+# ⚠️ Datenhinweis  
 
 Dieses Projekt dient ausschließlich zu Lernzwecken.  
 Keine realen medizinischen Bilddaten werden im Repository gespeichert.  
 
+<br>
 
-🧠 CNN Model Architecture  
+# 🧠 CNN Model Architecture  
 
 Das Modell wurde mit der Keras Functional API gebaut:  
 - Conv2D (32 Filter) → MaxPooling  
@@ -45,8 +50,9 @@ Loss: Binary Crossentropy
 Optimizer: Adam  
 Metrics: Accuracy  
 
+<br>
 
-📈 Training & Evaluation  
+# 📈 Training & Evaluation  
 
 Das Modell wird auf den vorbereiteten Daten trainiert:  
 - epochs = 20  
@@ -54,10 +60,11 @@ Das Modell wird auf den vorbereiteten Daten trainiert:
 - Testgenauigkeit nach Trainingsende  
 - Plot von Trainings- und Validierungsverlauf (optional)  
 
+<br>
 
-🔍 Prediction & Visualization  
+# 🔍 Prediction & Visualization  
 
-Das Skript kann:  
+## Das Skript kann:  
 ✔ Einzelbilder laden  
 ✔ Tumorwahrscheinlichkeit berechnen  
 ✔ Ergebnisse ausgeben:  
@@ -65,14 +72,16 @@ Wahrscheinlichkeit für Tumor: 0.97
 Das Bild zeigt einen Tumor  
 Testgenauigkeit: 0.7647058963775635  
 
+<br>
 
-🛡 Ethical Notice  
+# 🛡 Ethical Notice  
 
 Dieses Projekt dient ausschließlich Bildungszwecken  
 und ist nicht für klinische Entscheidungen gedacht.  
 
+<br>
 
-📬 Contact  
+# 📬 Contact  
 
 Bei Fragen oder Erweiterungswünschen einfach melden. 😊  
 Gerne helfe ich beim Ausbauen, Erweitern oder Optimieren des Modells.  

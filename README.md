@@ -7,7 +7,7 @@ Dieses Repository enthält ein Deep-Learning-Projekt zur Klassifikation von Gehi
 
 <br>
 
-Es kombiniert:  
+### Es kombiniert:  
 1. Bildvorverarbeitung (Skalierung, Normalisierung)  
 2. CNN-Modellierung mit Keras (Functional API)  
 3. Training, Validierung & Testen des Modells  
@@ -22,7 +22,7 @@ wie Deep Learning zur medizinischen Bildanalyse eingesetzt werden kann.
 # 🧼 Datasets & Preprocessing  
 ### 🧩 1. Image Preprocessing  
 
-Schritte:  
+### Schritte:  
 - Laden und Skalieren der Bilder (150×150 px)  
 - Normalisieren auf Wertebereich [0, 1]  
 - Erstellen von NumPy-Arrays für Training/Test  
@@ -64,7 +64,7 @@ Das Modell wird auf den vorbereiteten Daten trainiert:
 
 # 🔍 Prediction & Visualization  
 
-## Das Skript kann:  
+### Das Skript kann:  
 ✔ Einzelbilder laden  
 ✔ Tumorwahrscheinlichkeit berechnen  
 ✔ Ergebnisse ausgeben:  

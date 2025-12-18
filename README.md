@@ -20,7 +20,7 @@ wie Deep Learning zur medizinischen Bildanalyse eingesetzt werden kann.
 <br>
 
 # 🧼 Datasets & Preprocessing  
-## 🧩 1. Image Preprocessing  
+### 🧩 1. Image Preprocessing  
 
 Schritte:  
 - Laden und Skalieren der Bilder (150×150 px)  

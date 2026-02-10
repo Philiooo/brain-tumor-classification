@@ -79,9 +79,3 @@ Testgenauigkeit: 0.7647058963775635
 Dieses Projekt dient ausschließlich Bildungszwecken  
 und ist nicht für klinische Entscheidungen gedacht.  
 
-<br>
-
-# 📬 Contact  
-
-Bei Fragen oder Erweiterungswünschen einfach melden. 😊  
-Gerne helfe ich beim Ausbauen, Erweitern oder Optimieren des Modells.  

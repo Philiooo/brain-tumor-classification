@@ -30,13 +30,6 @@ wie Deep Learning zur medizinischen Bildanalyse eingesetzt werden kann.
 
 <br>
 
-# ⚠️ Datenhinweis  
-
-Dieses Projekt dient ausschließlich zu Lernzwecken.  
-Keine realen medizinischen Bilddaten werden im Repository gespeichert.  
-
-<br>
-
 # 🧠 CNN Model Architecture  
 
 Das Modell wurde mit der Keras Functional API gebaut:  
@@ -50,7 +43,7 @@ Loss: Binary Crossentropy
 Optimizer: Adam  
 Metrics: Accuracy  
 
-<br>
+<br>  
 
 # 📈 Training & Evaluation  
 
@@ -60,7 +53,7 @@ Das Modell wird auf den vorbereiteten Daten trainiert:
 - Testgenauigkeit nach Trainingsende  
 - Plot von Trainings- und Validierungsverlauf (optional)  
 
-<br>
+<br>  
 
 # 🔍 Prediction & Visualization  
 
@@ -72,7 +65,14 @@ Wahrscheinlichkeit für Tumor: 0.97
 Das Bild zeigt einen Tumor  
 Testgenauigkeit: 0.7647058963775635  
 
-<br>
+<br>  
+
+# ⚠️ Datenhinweis  
+
+Dieses Projekt dient ausschließlich zu Lernzwecken.  
+Keine realen medizinischen Bilddaten werden im Repository gespeichert.  
+
+<br>  
 
 # 🛡 Ethical Notice  
 
